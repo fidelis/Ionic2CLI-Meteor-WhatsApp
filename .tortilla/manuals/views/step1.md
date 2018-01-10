@@ -18,6 +18,8 @@ We will create our `Whatsapp`-clone using the following command:
 
     $ ionic start whatsapp blank --cordova --no-link
 
+> If you get the Error: self Signed certificate in certificate chain (try "set NODE_TLS_REJECT_UNAUTHORIZED=0")
+
 Then we will add an empty declarations file, to later allow third party libraries to be used in our app even if they don't provide their own type declarations:
 
 [{]: <helper> (diffStep "1.1")

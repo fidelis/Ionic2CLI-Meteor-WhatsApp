@@ -32,6 +32,9 @@ And we will add a symbolic link between Ionic's `node_modules` and Meteor's `nod
 
 Since we will be writing our app using `Typescript`, we will need to support it in our `Meteor` project as well, especially when the client and the server share some of the script files. To add this support we will add the following package to our `Meteor` project:
 
+> Upgrade yout GIT version to the latest.
+    
+    api$ meteor npm install
     api$ meteor add barbatus:typescript
 
 We will also need to add a configuration file for the `TypeScript` compiler in the `Meteor` server, which is derived from our `Ionic` app's config:
